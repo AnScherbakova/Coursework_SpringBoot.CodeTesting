@@ -1,0 +1,8 @@
+### Получить все вопросы
+GET http://localhost:8080/exam/java
+
+### Добавить вопрос или ответ
+GET http://localhost:8080/exam/java/add?question=new question&answer
+
+### Удалить вопрос или ответ
+GET http://localhost:8080/exam/java/remove?question=new question&answer
